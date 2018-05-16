@@ -1,0 +1,34 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "side": "lyad:blocks/multiblock/mightyfurnace/SingleBlockSimple",
+      "particle": "#side",
+      "down": "#side",
+      "up": "#side",
+      "north": "#side",
+      "south": "#side",
+      "west": "#side",
+      "east": "#side"
+    },
+    "model": "cube"
+  },
+  "variants": {
+    "assembled": {
+      "true": {"textures": {"facing": "lyad:blocks/multiblock/mightyfurnace/FaceCenterPower" }},
+      "false": {"textures": {"facing": "lyad:blocks/multiblock/mightyfurnace/SingleBlockPowerInput" }}
+    },
+    "hfacing": {
+      "north": {"textures": {"north": "#facing" }},
+      "south": {"textures": {"south": "#facing" }},
+      "west": {"textures": {"west": "#facing" }},
+      "east": {"textures": {"east": "#facing" }}
+    },
+    "inventory": {
+      "transform": "forge:default-block",
+      "textures": {
+        "north": "lyad:blocks/multiblock/mightyfurnace/SingleBlockPowerInput"
+      }
+    }
+  }
+}

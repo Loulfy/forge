@@ -1,0 +1,16 @@
+[
+{
+  "modid": "lyad",
+  "name": "Loulfy's Addons",
+  "description": "Add a Liquid Fueled Heater to Mekanism.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Loulfy"],
+  "credits": "Goju ;3",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

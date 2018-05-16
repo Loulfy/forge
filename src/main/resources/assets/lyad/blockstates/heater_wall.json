@@ -1,0 +1,37 @@
+{
+  "variants": {
+    "faces=none": { "model": "lyad:mightyFurnaceWall_single" },
+    "faces=all": { "model": "lyad:mightyFurnaceWall_single" },
+    "faces=face_d": { "model": "lyad:mightyFurnaceWall_face" },
+    "faces=face_u": { "model": "lyad:mightyFurnaceWall_face" },
+    "faces=face_e": { "model": "lyad:mightyFurnaceWall_face" },
+    "faces=face_w": { "model": "lyad:mightyFurnaceWall_face" },
+    "faces=face_s": { "model": "lyad:mightyFurnaceWall_face" },
+    "faces=face_n": { "model": "lyad:mightyFurnaceWall_face" },
+    "faces=angle_sw": { "model": "lyad:mightyFurnaceWall_frame"},
+    "faces=angle_es": { "model": "lyad:mightyFurnaceWall_frame", "y": -90},
+    "faces=angle_en": { "model": "lyad:mightyFurnaceWall_frame", "y": 180},
+    "faces=angle_nw": { "model": "lyad:mightyFurnaceWall_frame", "y": 90},
+    "faces=angle_su": { "model": "lyad:mightyFurnaceWall_frame", "x": -90, "y": 90 },
+    "faces=angle_ds": { "model": "lyad:mightyFurnaceWall_frame", "x": 90, "y": 90 },
+    "faces=angle_eu": { "model": "lyad:mightyFurnaceWall_frame", "x": 90, "y": -180 },
+    "faces=angle_de": { "model": "lyad:mightyFurnaceWall_frame", "x": 270, "y": -180 },
+    "faces=angle_nu": { "model": "lyad:mightyFurnaceWall_frame", "x": -90, "y": 270 },
+    "faces=angle_dn": { "model": "lyad:mightyFurnaceWall_frame", "x": 90, "y": 270 },
+    "faces=angle_uw": { "model": "lyad:mightyFurnaceWall_frame", "x": -90, "y": 180 },
+    "faces=angle_dw": { "model": "lyad:mightyFurnaceWall_frame", "x": 90, "y": 180 },
+    "faces=corner_suw": { "model": "lyad:mightyFurnaceWall_corner" },
+    "faces=corner_dsw": { "model": "lyad:mightyFurnaceWall_corner", "x": -90 },
+    "faces=corner_esu": { "model": "lyad:mightyFurnaceWall_corner", "y": -90 },
+    "faces=corner_des": { "model": "lyad:mightyFurnaceWall_corner", "x": -90, "y": -90 },
+    "faces=corner_enu": { "model": "lyad:mightyFurnaceWall_corner", "y": -180 },
+    "faces=corner_nuw": { "model": "lyad:mightyFurnaceWall_corner", "y": 90 },
+    "faces=corner_dnw": { "model": "lyad:mightyFurnaceWall_corner", "x": 180 },
+    "faces=corner_den": { "model": "lyad:mightyFurnaceWall_corner", "x": -90, "y": 180 },
+    "faces=opposite_ew": { "model": "lyad:mightyFurnaceWall_face_on" },
+    "inventory": {
+      "transform": "forge:default-block",
+      "model": "lyad:mightyFurnaceWall_single"
+    }
+  }
+}

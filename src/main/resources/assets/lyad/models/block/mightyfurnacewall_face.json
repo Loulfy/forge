@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "up": "lyad:blocks/multiblock/mightyfurnace/FaceCenterEmpty",
+    "down": "lyad:blocks/multiblock/mightyfurnace/FaceCenterEmpty",
+    "north": "lyad:blocks/multiblock/mightyfurnace/FaceCenterFront",
+    "south": "lyad:blocks/multiblock/mightyfurnace/FaceCenterFront",
+    "west": "lyad:blocks/multiblock/mightyfurnace/FaceCenterFront",
+    "east": "lyad:blocks/multiblock/mightyfurnace/FaceCenterFront"
+  }
+}
